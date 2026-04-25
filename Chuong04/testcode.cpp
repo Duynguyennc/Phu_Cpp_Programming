@@ -1,9 +1,10 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main() {
-    int n;
+    double n;
     cin >> n;
-    cout << "n = " << n << endl;
+    cout << setprecision(5) << "n = " << n << endl;
     return 0;
 }
